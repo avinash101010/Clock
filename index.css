@@ -18,16 +18,17 @@ body,
 body {
     padding: 0 10px;
     min-height: 100vh;
-    background: #288ed6;
+    background: linear-gradient(to right, #283048, #323c3f);
+
 }
 
 .wrapper {
     width: 440px;
     padding: 30px 30px 38px;
-    background: #fff;
+    background: linear-gradient(to right, #283048, #3f55b4);
     border-radius: 10px;
     flex-direction: column;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 25px rgba(206, 5, 152, 0.1);
 }
 
 .wrapper img {
@@ -38,6 +39,7 @@ body {
     font-size: 38px;
     font-weight: 500;
     margin: 30px 0;
+    color: #fdfdfd;
 }
 
 .wrapper .content {
@@ -56,6 +58,7 @@ body {
     padding: 0 10px;
     border: 1px solid #999;
     width: calc(100% /3 - 5px);
+    background-color: #1453d2;
 }
 
 .column select {
@@ -64,6 +67,7 @@ body {
     height: 53px;
     width: 100%;
     font-size: 19px;
+    background-color: #1453d2;
 }
 
 .wrapper button {
